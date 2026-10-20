@@ -142,3 +142,17 @@ network_monitor_node ──→ /network_status ──→ robot_state_node ──
 - ✅ GUI langsung subscribe topic asli untuk data detail
 - ✅ /robot_state hanya berisi ringkasan kondisi kesehatan robot
 - ✅ Struktur ini paling ringan, mudah di-maintain, dan sesuai filosofi BrushKart yang sebelumnya sudah dipilih: **monitoring layer terpisah dari control layer**
+
+## Terkait
+
+**Sebelum / sesudah:**
+
+- [[30_September_2026]]
+- [[6_October_2026]]
+
+**Dokumen terkait:**
+
+- [[Project_Overview]]
+- [[n_sensor_node]]
+- [[24_25_September]]
+- [[1_September_2026]]

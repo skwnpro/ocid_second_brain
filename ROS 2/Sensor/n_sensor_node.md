@@ -220,3 +220,9 @@ while True:
     print(f"Gyro Z : {gyro_z:.2f}")
     time.sleep(1)
 ```
+
+## Terkait
+
+- [[Project_Overview]]
+- [[24_25_September]]
+- [[5_October_2026]]

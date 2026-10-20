@@ -211,3 +211,18 @@ Estimasi keseluruhan software underwater robot: ~60% selesai.
 - ✅ Driver sensor sudah selesai
 - ✅ Topic sensor sudah publish
 - ✅ ROS2 communication berjalan
+
+## Terkait
+
+**Sebelum / sesudah:**
+
+- [[22_September_2026]]
+- [[24_September_2026]]
+- [[26_September_2026]]
+
+**Dokumen terkait:**
+
+- [[Project_Overview]]
+- [[n_sensor_node]]
+- [[joystick_interface_node]]
+- [[5_October_2026]]

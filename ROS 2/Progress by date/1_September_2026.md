@@ -161,3 +161,16 @@ Area yang harus dicek:
 | 6 | Verifikasi fail-safe saat joystick dilepas |
 | 7 | Integrasikan sensor ke robot_state_node |
 | 8 | Integrasi penuh Ground Station ↔ Robot |
+
+## Terkait
+
+**Sebelum / sesudah:**
+
+- [[22_September_2026]]
+
+**Dokumen terkait:**
+
+- [[Project_Overview]]
+- [[joystick_interface_node]]
+- [[Joystick_input_test]]
+- [[Git_Uses]]

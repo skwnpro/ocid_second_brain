@@ -129,3 +129,10 @@ int16 steering
 int16 thruster
 bool brush_enable
 ```
+
+## Terkait
+
+- [[Project_Overview]]
+- [[Joystick_input_test]]
+- [[1_September_2026]]
+- [[24_25_September]]

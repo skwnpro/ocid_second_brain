@@ -104,3 +104,18 @@ Fondasi komunikasi sistem sudah selesai. Yang sudah terbukti bekerja:
 - ✅ Raspberry Pi menerima /robot_command
 
 Milestone besar berikutnya: membuat command_gateway_node di Raspberry Pi yang subscribe /robot_command dan mengubah command tersebut menjadi output GPIO/solenoid untuk sistem hidrolik underwater robot.
+
+## Terkait
+
+**Sebelum / sesudah:**
+
+- [[1_September_2026]]
+- [[24_25_September]]
+
+**Dokumen terkait:**
+
+- [[Project_Overview]]
+- [[ROS2_Installation]]
+- [[Operate_ROS2]]
+- [[Connection_Ethernet]]
+- [[Git_Uses]]

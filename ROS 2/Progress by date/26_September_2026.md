@@ -140,3 +140,14 @@ Target ideal:
 - ✅ Siap integrasi Ground Station BrushKart
 
 **Kesimpulan:** hari ini progres sangat besar. Dari kondisi awal kamera sama sekali tidak terdeteksi, sekarang IMX290 sudah terdeteksi, ROS2 node sudah publish, DDS sudah mengirim ke Ground Station. Bottleneck terakhir tinggal satu: **pixel data dari pipeline kamera masih bernilai 0 (frame hitam)**. Setelah itu beres, streaming kamera ke Mini PC hampir pasti selesai.
+
+## Terkait
+
+**Sebelum / sesudah:**
+
+- [[24_25_September]]
+- [[28_September_2026]]
+
+**Dokumen terkait:**
+
+- [[Project_Overview]]

@@ -55,3 +55,9 @@ Perintah untuk test: `jstest-gtk`
    source install/setup.bash
    ros2 topic echo /robot_command
    ```
+
+## Terkait
+
+- [[Project_Overview]]
+- [[joystick_interface_node]]
+- [[1_September_2026]]

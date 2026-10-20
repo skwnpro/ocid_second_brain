@@ -17,3 +17,11 @@ sudo apt install gnome-shell-extension-manager -y
 1. Lalu search Extension Manager
 2. Browse, cari vitals
 3. Atur info apa yang akan ditampilkan
+
+## Terkait
+
+**Catatan di sekitar tanggal ini:**
+
+- [[22_September_2026]]
+- [[24_25_September]]
+- [[Project_Overview]]

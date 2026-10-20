@@ -184,3 +184,16 @@ network_monitor_node ──publish──→ /network_status ──→ robot_stat
 | Ground Station Dashboard | ⏳ 0% |
 
 **Next action (urutan pengerjaan):** integrasi ke robot_state_node.
+
+## Terkait
+
+**Sebelum / sesudah:**
+
+- [[28_September_2026]]
+- [[5_October_2026]]
+
+**Dokumen terkait:**
+
+- [[Project_Overview]]
+- [[Connection_Ethernet]]
+- [[5_October_2026]]

@@ -26,3 +26,29 @@ Fokus topik pembuatan robot brush kart dengan spesifikasi sebagai berikut:
 3. Kontrol hardware (hidrolik) di brush kart robot menggunakan Raspi, output ke solenoid 24VDC
 4. Pada brush kart robot terdapat DC-DC converter ke 5V dan 3,3V untuk power sensor dan Raspi
 5. Sensor yang digunakan: sensor tekanan GY-MS5803 dan IMU BN055
+
+## Terkait
+
+**Dokumen teknis:**
+
+- [[ROS2_Installation]]
+- [[Operate_ROS2]]
+- [[Git_Uses]]
+- [[Connection_Ethernet]]
+- [[joystick_interface_node]]
+- [[Joystick_input_test]]
+- [[n_sensor_node]]
+
+**Log harian proyek:**
+
+- [[1_September_2026]]
+- [[22_September_2026]]
+- [[24_25_September]]
+- [[26_September_2026]]
+- [[28_September_2026]]
+- [[30_September_2026]]
+- [[5_October_2026]]
+
+**Review & rencana:**
+
+- [[project_review_201026]]

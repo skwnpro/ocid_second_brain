@@ -426,3 +426,9 @@ source venv/bin/activate && pip install -r requirements.txt
 sudo systemctl restart cashflow-bot.service
 sudo systemctl status cashflow-bot.service
 ```
+
+## Terkait
+
+**Dokumen utama:**
+
+- [[finance_assistant_dokumentasi]] — dokumentasi lengkap project (arsitektur, referensi, jurnal)

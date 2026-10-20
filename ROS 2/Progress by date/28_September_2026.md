@@ -221,3 +221,14 @@ IMX290 → libcamera → libcamerify → OpenCV → camera_node
 | Optimasi FPS | 80% |
 | Optimasi compressed | 80% |
 | Overall | 100% |
+
+## Terkait
+
+**Sebelum / sesudah:**
+
+- [[26_September_2026]]
+- [[30_September_2026]]
+
+**Dokumen terkait:**
+
+- [[Project_Overview]]

@@ -458,3 +458,9 @@ BNI Mila 1, BNI Mila 2, ago cash buffer, Jago kantong utama, Shopeepay mila, cas
     terdeteksi (`@contextmanager` terpotong → semua query DB gagal).
 11. **Fail-fast untuk dependensi kritis.** `ensure_audit_table()` di startup:
     lebih baik crash-loop yang kelihatan daripada jalan tanpa audit yang sunyi.
+
+## Terkait
+
+**Panduan pendamping:**
+
+- [[finance_assistant_installation_guide]] — panduan instalasi & setup dari nol

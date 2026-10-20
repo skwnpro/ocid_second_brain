@@ -70,3 +70,10 @@ ros2 pkg create --build-type ament_python --license Apache-2.0 --node-name my_no
 # CMake
 ros2 pkg create --build-type ament_cmake --license Apache-2.0 --node-name my_node my_package
 ```
+
+## Terkait
+
+- [[Project_Overview]]
+- [[ROS2_Installation]]
+- [[22_September_2026]]
+- [[joystick_interface_node]]
