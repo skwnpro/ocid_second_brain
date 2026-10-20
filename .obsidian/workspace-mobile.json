@@ -128,7 +128,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Finance Assistant/finance_assistant_dokumentasi.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -184,6 +183,7 @@
   },
   "active": "9042ac389818c3a7",
   "lastOpenFiles": [
+    "ROS 2/project_review_201026.md",
     "ROS 2/How to use ROS2/Connection_Ethernet.md",
     "ROS 2/Sensor/Joystick_input_test.md",
     "ROS 2/Progress by date/1_September_2026.md",
