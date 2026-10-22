@@ -223,6 +223,6 @@ while True:
 
 ## Terkait
 
-- [[Project_Overview]]
+- [[ROS2_Bruskart_Robot_Project_Overview]]
 - [[24_25_September]]
 - [[5_October_2026]]

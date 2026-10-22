@@ -132,7 +132,7 @@ bool brush_enable
 
 ## Terkait
 
-- [[Project_Overview]]
+- [[ROS2_Bruskart_Robot_Project_Overview]]
 - [[Joystick_input_test]]
-- [[1_September_2026]]
+- [[1_October_2026]]
 - [[24_25_September]]

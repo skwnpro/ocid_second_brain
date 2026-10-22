@@ -24,4 +24,4 @@ sudo apt install gnome-shell-extension-manager -y
 
 - [[22_September_2026]]
 - [[24_25_September]]
-- [[Project_Overview]]
+- [[ROS2_Bruskart_Robot_Project_Overview]]

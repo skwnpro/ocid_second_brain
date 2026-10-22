@@ -61,17 +61,17 @@ Data joystick dibaca dari topic `/robot_command`:
 
 ### 4. Truth Table Gerakan Robot
 
-| Input Joystick | Output |
-|----------------|--------|
-| Maju | Relay thruster maju ON |
-| Mundur | Relay thruster mundur ON |
-| Geser kiri | Relay kiri ON |
-| Geser kanan | Relay kanan ON |
-| Putar kiri | Relay rotasi kiri ON |
-| Putar kanan | Relay rotasi kanan ON |
-| Naik | Relay vertikal naik ON |
-| Turun | Relay vertikal turun ON |
-| Joystick dilepas (deadband) | Semua relay OFF |
+| Input Joystick              | Output                   |
+| --------------------------- | ------------------------ |
+| Maju                        | Relay thruster maju ON   |
+| Mundur                      | Relay thruster mundur ON |
+| Geser kiri                  | Relay kiri ON            |
+| Geser kanan                 | Relay kanan ON           |
+| Putar kiri                  | Relay rotasi kiri ON     |
+| Putar kanan                 | Relay rotasi kanan ON    |
+| Naik                        | Relay vertikal naik ON   |
+| Turun                       | Relay vertikal turun ON  |
+| Joystick dilepas (deadband) | Semua relay OFF          |
 
 Beserta kombinasi gerakan diagonal dan prioritas command.
 
@@ -170,7 +170,7 @@ Area yang harus dicek:
 
 **Dokumen terkait:**
 
-- [[Project_Overview]]
+- [[ROS2_Bruskart_Robot_Project_Overview]]
 - [[joystick_interface_node]]
 - [[Joystick_input_test]]
 - [[Git_Uses]]

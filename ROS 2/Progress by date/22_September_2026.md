@@ -109,12 +109,12 @@ Milestone besar berikutnya: membuat command_gateway_node di Raspberry Pi yang su
 
 **Sebelum / sesudah:**
 
-- [[1_September_2026]]
+- [[1_October_2026]]
 - [[24_25_September]]
 
 **Dokumen terkait:**
 
-- [[Project_Overview]]
+- [[ROS2_Bruskart_Robot_Project_Overview]]
 - [[ROS2_Installation]]
 - [[Operate_ROS2]]
 - [[Connection_Ethernet]]

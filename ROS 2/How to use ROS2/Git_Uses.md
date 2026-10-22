@@ -115,6 +115,6 @@ main tetap utuh.
 
 ## Terkait
 
-- [[Project_Overview]]
-- [[1_September_2026]]
+- [[ROS2_Bruskart_Robot_Project_Overview]]
+- [[1_October_2026]]
 - [[22_September_2026]]

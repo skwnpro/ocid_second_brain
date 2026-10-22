@@ -106,6 +106,6 @@ ssh exedy@192.168.10.2
 
 ## Terkait
 
-- [[Project_Overview]]
+- [[ROS2_Bruskart_Robot_Project_Overview]]
 - [[22_September_2026]]
 - [[30_September_2026]]

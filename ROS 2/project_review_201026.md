@@ -91,7 +91,7 @@ Urutan di bawah mengikuti dependensi: fondasi dulu, baru fitur, dan robot simula
 
 ## Terkait
 
-- [[Project_Overview]]
+- [[ROS2_Bruskart_Robot_Project_Overview]]
 - [[joystick_interface_node]]
 - [[n_sensor_node]]
 - [[Operate_ROS2]]

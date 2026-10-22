@@ -58,6 +58,6 @@ Perintah untuk test: `jstest-gtk`
 
 ## Terkait
 
-- [[Project_Overview]]
+- [[ROS2_Bruskart_Robot_Project_Overview]]
 - [[joystick_interface_node]]
-- [[1_September_2026]]
+- [[1_October_2026]]

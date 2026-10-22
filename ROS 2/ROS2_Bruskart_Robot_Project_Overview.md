@@ -41,7 +41,7 @@ Fokus topik pembuatan robot brush kart dengan spesifikasi sebagai berikut:
 
 **Log harian proyek:**
 
-- [[1_September_2026]]
+- [[1_October_2026]]
 - [[22_September_2026]]
 - [[24_25_September]]
 - [[26_September_2026]]

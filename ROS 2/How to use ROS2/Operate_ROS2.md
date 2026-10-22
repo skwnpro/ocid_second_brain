@@ -73,7 +73,7 @@ ros2 pkg create --build-type ament_cmake --license Apache-2.0 --node-name my_nod
 
 ## Terkait
 
-- [[Project_Overview]]
+- [[ROS2_Bruskart_Robot_Project_Overview]]
 - [[ROS2_Installation]]
 - [[22_September_2026]]
 - [[joystick_interface_node]]

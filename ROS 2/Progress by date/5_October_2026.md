@@ -152,7 +152,7 @@ network_monitor_node ──→ /network_status ──→ robot_state_node ──
 
 **Dokumen terkait:**
 
-- [[Project_Overview]]
+- [[ROS2_Bruskart_Robot_Project_Overview]]
 - [[n_sensor_node]]
 - [[24_25_September]]
-- [[1_September_2026]]
+- [[1_October_2026]]

@@ -194,6 +194,6 @@ network_monitor_node ──publish──→ /network_status ──→ robot_stat
 
 **Dokumen terkait:**
 
-- [[Project_Overview]]
+- [[ROS2_Bruskart_Robot_Project_Overview]]
 - [[Connection_Ethernet]]
 - [[5_October_2026]]

@@ -231,4 +231,4 @@ IMX290 → libcamera → libcamerify → OpenCV → camera_node
 
 **Dokumen terkait:**
 
-- [[Project_Overview]]
+- [[ROS2_Bruskart_Robot_Project_Overview]]
