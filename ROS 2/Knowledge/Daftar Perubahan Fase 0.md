@@ -28,14 +28,14 @@ pull request di-merge.
 
 ## 1. Keputusan desain yang tertanam di perubahan ini
 
-| # | Keputusan | Alasan |
-|---|---|---|
-| 1 | Konvensi arah dikunci: `drive > 0` = maju, `steering > 0` = belok kanan | Ditulis di `OperatorCommand.msg` + README sebagai sumber kebenaran |
-| 2 | **Bug arah diperbaiki di gateway**: kode lama menafsirkan drive negatif = forward & steering positif = left, yang terhadap data jstest (stick atas/kanan terbaca negatif) membuat stick atas = mundur dan stick kanan = belok kiri | Sekarang: positif = forward (relay2), positif steering = right (relay5) |
-| 3 | `/relay_operator` menjadi **heartbeat** 20 Hz dari gateway | Relay node kini bisa membedakan "operator diam" vs "pengirim mati" |
-| 4 | Mode **AUTO diperlakukan sebagai OFF** | Semi-auto belum ada; robot diam lebih aman daripada bergerak tanpa kendali |
-| 5 | Pilihan kamera (SC) **tidak** masuk `OperatorCommand` | Itu urusan tampilan lokal GS → topic baru `/camera_select` untuk GUI |
-| 6 | Topic kamera diganti nama: `image_raw` (bukan `raw_image`) | Menyesuaikan diagram desain; `compressed` dan `camera_info` di namespace yang sama |
+| #   | Keputusan                                                                                                                                                                                                                          | Alasan                                                                             |
+| --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| 1   | Konvensi arah dikunci: `drive > 0` = maju, `steering > 0` = belok kanan                                                                                                                                                            | Ditulis di `OperatorCommand.msg` + README sebagai sumber kebenaran                 |
+| 2   | **Bug arah diperbaiki di gateway**: kode lama menafsirkan drive negatif = forward & steering positif = left, yang terhadap data jstest (stick atas/kanan terbaca negatif) membuat stick atas = mundur dan stick kanan = belok kiri | Sekarang: positif = forward (relay2), positif steering = right (relay5)            |
+| 3   | `/relay_operator` menjadi **heartbeat** 20 Hz dari gateway                                                                                                                                                                         | Relay node kini bisa membedakan "operator diam" vs "pengirim mati"                 |
+| 4   | Mode **AUTO diperlakukan sebagai OFF**                                                                                                                                                                                             | Semi-auto belum ada; robot diam lebih aman daripada bergerak tanpa kendali         |
+| 5   | Pilihan kamera (SC) **tidak** masuk `OperatorCommand`                                                                                                                                                                              | Itu urusan tampilan lokal GS → topic baru `/camera_select` untuk GUI               |
+| 6   | Topic kamera diganti nama: `image_raw` (bukan `raw_image`)                                                                                                                                                                         | Menyesuaikan diagram desain; `compressed` dan `camera_info` di namespace yang sama |
 
 ## 2. Asumsi yang perlu dikonfirmasi
 
@@ -125,13 +125,13 @@ Sekarang: node heartbeat dengan penolakan perintah basi dan max-on-time.
 
 **Fungsi-fungsi:**
 
-| Fungsi | Tugasnya |
-|---|---|
-| `command_callback(msg)` | Menyimpan perintah terakhir + waktu terimanya (jam monotonik) |
-| `_relay_dari_perintah(cmd)` | Penerjemahan murni OperatorCommand → RelayOperator: prioritas estop → mode → deadband drive/steering → brush → thruster (digerbang assist) |
-| `_terapkan_max_on_time(relay, sekarang)` | Mematikan paksa output gerak yang menyala terus melewati `max_continuous_on_s`, dan menahannya mati sampai perintahnya berubah |
-| `publish_relay()` | Siklus timer 20 Hz: bila perintah basi → publish semua OFF; selain itu publish hasil terjemahan; log hanya saat keadaan berubah |
-| `_ringkas(relay)` | Ringkasan satu baris keadaan relay untuk log |
+| Fungsi                                   | Tugasnya                                                                                                                                   |
+| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| `command_callback(msg)`                  | Menyimpan perintah terakhir + waktu terimanya (jam monotonik)                                                                              |
+| `_relay_dari_perintah(cmd)`              | Penerjemahan murni OperatorCommand → RelayOperator: prioritas estop → mode → deadband drive/steering → brush → thruster (digerbang assist) |
+| `_terapkan_max_on_time(relay, sekarang)` | Mematikan paksa output gerak yang menyala terus melewati `max_continuous_on_s`, dan menahannya mati sampai perintahnya berubah             |
+| `publish_relay()`                        | Siklus timer 20 Hz: bila perintah basi → publish semua OFF; selain itu publish hasil terjemahan; log hanya saat keadaan berubah            |
+| `_ringkas(relay)`                        | Ringkasan satu baris keadaan relay untuk log                                                                                               |
 
 **Perbaikan bug:** perbandingan arah dibalik ke konvensi yang benar —
 `drive > deadband` → `relay2_forward` (dulu `drive < -deadband`),
@@ -280,10 +280,11 @@ di branch yang sama (commit tersendiri), tercatat di riwayat PR.
 
 ### 5.4 `brushkart_sensor/.../bno055_driver.py` — DITAMBAH SATU METHOD
 
-| Perubahan | Fungsi |
-|---|---|
+| Perubahan                    | Fungsi                                                                                                                                                           |
+| ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ➕ `get_calibration_status()` | Membaca register 0x35 → dict `{sys, gyro, acc, mag}` (0–3); dipakai sensor_node untuk log berkala. Kalibrasi BNO055 hilang tiap power cycle, jadi harus terlihat |
-| ➕ docstring catatan yaw | Yaw magnetometer tidak bisa dipercaya di dekat lambung baja |
+| ➕ docstring catatan yaw      | Yaw magnetometer tidak bisa dipercaya di dekat lambung baja                                                                                                      |
+|                              |                                                                                                                                                                  |
 
 ### 5.5 `brushkart_camera/.../camera_node.py` — DITULIS ULANG
 
@@ -335,12 +336,13 @@ di branch yang sama (commit tersendiri), tercatat di riwayat PR.
 
 ### 5.7 `package.xml` — EMPAT FILE DIPERBAIKI
 
-| Package | Perbaikan |
-|---|---|
-| `brushkart_sensor` | Typo dependensi `bruhskart_msgs` → **`brushkart_msgs`** |
-| `brushkart_operator` | Dependensi hantu `brushkart_interfaces` **dibuang** |
-| `brushkart_network` | Dependensi hantu `brushkart_utils` **dibuang**; ➕ `python3-psutil` (memang diimpor kodenya) |
-| (GS) `brushkart_joystick` | Lihat §4.4 |
+| Package                   | Perbaikan                                                                                   |
+| ------------------------- | ------------------------------------------------------------------------------------------- |
+| `brushkart_sensor`        | Typo dependensi `bruhskart_msgs` → **`brushkart_msgs`**                                     |
+| `brushkart_operator`      | Dependensi hantu `brushkart_interfaces` **dibuang**                                         |
+| `brushkart_network`       | Dependensi hantu `brushkart_utils` **dibuang**; ➕ `python3-psutil` (memang diimpor kodenya) |
+| (GS) `brushkart_joystick` | Lihat §4.4                                                                                  |
+|                           |                                                                                             |
 
 Catatan: `smbus2` dan `RPi.GPIO` tidak punya kunci rosdep standar yang
 bisa diandalkan — cara instalasinya didokumentasikan di README repo ini
