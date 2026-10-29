@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Braind Dump.md",
+                "file": "2026-10-28-2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Braind Dump"
+              "title": "2026-10-28-2"
             }
           }
         ],
@@ -188,8 +188,11 @@
   },
   "active": "f71d9ed115604b74",
   "lastOpenFiles": [
-    "Game ocid/Project Overview.md",
+    "2026-10-28.md",
+    "2026-10-28-2.md",
+    "ROS 2/How to use ROS2/Connection_Ethernet.md",
     "Braind Dump.md",
+    "Game ocid/Project Overview.md",
     "ROS 2/Knowledge/Daftar Perubahan Fase 0.md",
     "ROS 2/Sensor/Joystick_input_test.md",
     "ROS 2/Brush_Kart_Audit_Devils_Advocate.md",
@@ -204,7 +207,6 @@
     "ROS 2/project_review_201026.md",
     "Game ocid",
     "2026-10-20.md",
-    "ROS 2/How to use ROS2/Connection_Ethernet.md",
     "ROS 2/Progress by date/6_October_2026.md",
     "ROS 2/How to use ROS2/Git_Uses.md",
     "Finance Assistant/finance_assistant_dokumentasi.md",

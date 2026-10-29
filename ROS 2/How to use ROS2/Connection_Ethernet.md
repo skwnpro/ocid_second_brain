@@ -1,6 +1,7 @@
 ---
 title: Connection Ethernet
 date: 2026-09-22
+tags:
 ---
 
 # Connection Ethernet
