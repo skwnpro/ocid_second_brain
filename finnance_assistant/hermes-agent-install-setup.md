@@ -4,9 +4,11 @@ title: Hermes Agent Install & Setup di InstaBox VPS
 
 # Hermes Agent Install & Setup di InstaBox VPS
 
-Panduan untuk menginstal dan menyiapkan Hermes Agent sendiri di VPS InstaBox yang menjalankan Debian 13. Setup sebelumnya memakai Hermes Agent stable **v0.23.0**, Nous Portal Free, model gratis `upstage/solar-mini4:free`, dan gateway Telegram. Tidak ada model berbayar, langganan, atau top-up yang dipakai.
+Panduan untuk menginstal dan menyiapkan Hermes Agent sendiri di VPS InstaBox yang menjalankan Debian 13. Setup awal memakai Hermes Agent stable **v0.23.0**, Nous Portal Free, model gratis `upstage/solar-mini4:free`, dan gateway Telegram. Tidak ada model berbayar, langganan, atau top-up yang dipakai.
 
-Dokumentasi terkait: [[finance_assistant_dokumentasi]]
+> Update 2026-11-09: provider utama pindah ke 9Router + Gemini `gemini-3.6-flash` dan gateway jadi systemd service. Detail lengkap: [[9Router_Hermes_Setup]].
+
+Dokumentasi terkait: [[finance_assistant_dokumentasi]], [[9Router_Hermes_Setup]]
 
 > Versi stable bisa berubah. Perintah installer di bawah mengambil rilis stable terkini; versi yang terpasang saat setup sebelumnya adalah v0.23.0. Jangan menganggap versi terbaru akan tetap sama.
 
@@ -14,10 +16,10 @@ Dokumentasi terkait: [[finance_assistant_dokumentasi]]
 
 - **Server:** InstaBox VPS, Debian 13.
 - **Instalasi:** installer POSIX resmi Hermes Agent.
-- **Provider/model:** Nous Portal Free dengan `upstage/solar-mini4:free`.
+- **Provider/model:** 9Router di `http://localhost:20128/v1` dengan `gemini/gemini-3.6-flash` (sejak 2026-11-09). Sebelumnya Nous Portal Free dengan `upstage/solar-mini4:free`.
 - **Kunci API dan endpoint khusus yang sudah ada:** dibiarkan seperti semula; jangan ditimpa atau dihapus jika masih dipakai.
 - **Telegram:** gateway memakai bot Telegram, akses dibatasi ke akun Telegram pemilik setelah akun itu mengirim `/start` ke bot.
-- **Gateway:** dijalankan manual, bukan sebagai system service.
+- **Gateway:** system service `hermes-gateway.service` (enabled, auto-start). Sebelumnya dijalankan manual.
 - **File dan skill lama:** tidak ada yang dihapus.
 
 ## 0. Masuk ke VPS dan cek sistem
@@ -72,6 +74,8 @@ upstage/solar-mini4:free
 
 Pastikan pilihan model tetap yang gratis. Tidak perlu membeli paket, mengaktifkan langganan berbayar, atau melakukan top-up untuk konfigurasi ini.
 
+> Update 2026-11-09: ini setup awal. Provider utama sekarang 9Router + Gemini `gemini-3.6-flash` (detail: [[9Router_Hermes_Setup]]); Nous Portal Free jadi pilihan sebelumnya, fallback-nya belum dipasang.
+
 VPS sebelumnya sudah memiliki pengaturan API key dan custom endpoint. Pengaturan itu **tidak diubah**. Jika saat setup terlihat konfigurasi tersebut, jangan hapus atau ganti kecuali memang sengaja ingin mengubah konfigurasi yang ada. Jangan menyalin token atau API key ke catatan ini.
 
 ## 3. Siapkan bot Telegram
@@ -84,17 +88,24 @@ VPS sebelumnya sudah memiliki pengaturan API key dan custom endpoint. Pengaturan
 
 Token bot bersifat rahasia seperti password. Jangan masukkan token ke dokumen, repositori Git, screenshot, atau chat. Jika token pernah bocor, ganti token melalui BotFather dan perbarui konfigurasi Hermes.
 
-## 4. Jalankan gateway secara manual
+## 4. Jalankan gateway sebagai system service
 
-Setup ini menjalankan gateway secara manual, bukan mendaftarkannya sebagai system service. Setelah konfigurasi Telegram selesai, mulai gateway di sesi SSH:
+Sejak 2026-11-09, gateway jalan sebagai system service, bukan proses manual. Daftarkan sekali (setelah konfigurasi Telegram selesai):
 
 ```bash
-hermes gateway
+sudo HERMES_HOME=/data/home/.hermes /data/home/.local/bin/hermes gateway install --system
+sudo systemctl status hermes-gateway.service --no-pager | head -n 6
 ```
 
-Biarkan proses dan sesi terminal tetap berjalan. Uji dengan mengirim pesan ke bot dari akun Telegram yang sudah diizinkan. Jika gateway dihentikan atau VPS berhenti, bot tidak akan merespons sampai VPS aktif dan gateway dijalankan lagi.
+Harusnya `hermes-gateway.service` jadi `enabled` + `active (running)`. Uji dengan mengirim pesan ke bot dari akun Telegram yang sudah diizinkan. Menutup sesi SSH tidak menghentikan gateway; VPS yang ke-pause lalu bangun lagi juga nyalain gateway sendiri.
 
-Untuk setup ini, jangan menganggap gateway otomatis hidup kembali setelah reboot. Pengaturan system service/persistent startup tidak dibuat.
+Verifikasi gateway pakai model yang benar:
+
+```bash
+grep "Model context warmed" ~/.hermes/logs/gateway.log | tail -n 2
+```
+
+Harusnya keluar `Model context warmed: gemini/gemini-3.6-flash -> 1048576 tokens`. Perintah `hermes gateway` (foreground) masih bisa dipakai buat debug, tapi bukan cara jalan sehari-hari lagi.
 
 ## 5. InstaBox auto-pause dan cron
 
@@ -104,25 +115,25 @@ Ada dua hal berbeda yang perlu diperhatikan:
 - **Cron di dalam VPS** berjalan di mesin virtual itu sendiri dan hanya dapat menjalankan pekerjaan ketika VPS aktif. Cron tidak membuat mesin yang sedang berhenti menjadi aktif.
 - **Cron di luar VPS** adalah scheduler pada mesin/layanan lain. Ia dapat meminta VPS menjalankan pekerjaan hanya jika scheduler itu sendiri tetap hidup dan punya cara untuk mengakses VPS. Cron eksternal tidak sama dengan cron di dalam Debian.
 
-Gateway pada setup ini dijalankan manual, jadi cron bukan pengganti proses gateway yang selalu hidup. Jika ingin gateway berjalan otomatis setelah reboot atau mengubah perilaku auto-pause, itu merupakan perubahan setup terpisah.
+Gateway sekarang system service, jadi dia hidup sendiri tiap VPS bangun (resume) atau reboot. Yang tetap nggak bisa: cron di dalam VPS tidak bisa membangunkan VPS yang sedang pause — banguninnya dari luar (`instabox resume finance-bot` atau tombol Resume di dashboard instabox). Catatan: tiap gateway cold boot, update Telegram yang ngantri selama dia offline di-drop — chat yang dikirim pas gateway mati harus dikirim ulang.
 
 ## Troubleshooting singkat
 
 - **`hermes: command not found`:** buka sesi SSH baru supaya `PATH` yang ditambahkan installer dimuat. Pastikan instalasi selesai tanpa error.
-- **Bot Telegram tidak merespons:** pastikan VPS aktif, perintah `hermes gateway` masih berjalan, token bot benar, akun sudah mengirim `/start`, dan akun tersebut diizinkan oleh access control.
-- **Gateway berhenti setelah sesi SSH ditutup:** sesuai setup ini gateway dijalankan manual. Jalankan lagi saat sesi baru dibuka; service otomatis belum dikonfigurasi.
-- **Gateway berhenti ketika VPS di-pause/reboot:** aktifkan kembali VPS jika perlu, sambungkan lagi, lalu jalankan gateway secara manual.
-- **Model/provider tidak sesuai:** tinjau kembali pengaturan Hermes dan pilih Nous Portal Free serta `upstage/solar-mini4:free`. Jangan menghapus API key atau endpoint khusus yang sudah ada untuk memperbaikinya.
+- **Bot Telegram tidak merespons:** pastikan VPS aktif, `sudo systemctl status hermes-gateway.service` nunjukin `active (running)`, token bot benar, akun sudah mengirim `/start`, dan akun tersebut diizinkan oleh access control. Kalau VPS sempat ke-pause, bangunin dulu (`instabox resume finance-bot`), terus kirim ulang pesannya — pesan yang dikirim pas gateway mati itu ke-drop.
+- **Gateway berhenti setelah sesi SSH ditutup:** nggak seharusnya terjadi lagi sejak gateway jadi system service. Cek `sudo systemctl status hermes-gateway.service` dan `journalctl -u hermes-gateway -n 50` buat lihat kenapa dia mati.
+- **Gateway berhenti ketika VPS di-pause/reboot:** aktifkan kembali VPS (`instabox resume finance-bot`); service `hermes-gateway` nyala sendiri pas mesin bangun. Kalau nggak nyala, cek `sudo systemctl status hermes-gateway.service`.
+- **Model/provider tidak sesuai:** provider utama sekarang 9Router + `gemini/gemini-3.6-flash` (cek `grep -n "^  default:\|^  provider:\|^  base_url:" ~/.hermes/config.yaml`). Nous Portal Free + `upstage/solar-mini4:free` itu settingan lama sebelum 2026-11-09. Jangan menghapus API key atau endpoint khusus yang sudah ada untuk memperbaikinya; detail pindahnya ada di [[9Router_Hermes_Setup]].
 
 ## Checklist akhir
 
 - [ ] SSH masuk ke VPS Debian 13 yang benar.
 - [ ] `hermes --version` menampilkan versi yang terpasang.
-- [ ] Provider yang dipilih adalah Nous Portal Free.
-- [ ] Model aktif adalah `upstage/solar-mini4:free`.
-- [ ] API key/custom endpoint lama tetap tidak berubah.
+- [ ] Provider utama adalah 9Router (`http://localhost:20128/v1`), sebelumnya Nous Portal Free.
+- [ ] Model aktif adalah `gemini/gemini-3.6-flash`.
+- [ ] Pengaturan Nous lama tersimpan di `config.yaml.bak-before-9router`, tidak dihapus.
 - [ ] Gateway Telegram memakai token yang disimpan aman.
 - [ ] Akun Telegram pemilik sudah mengirim `/start` dan akses dibatasi melalui allowlist.
-- [ ] `hermes gateway` sedang berjalan dan bot merespons.
-- [ ] Dipahami bahwa gateway saat ini manual, bukan system service, dan VPS dapat terdampak auto-pause.
+- [ ] `hermes-gateway.service` `active (running)` dan bot merespons.
+- [ ] Dipahami bahwa gateway sekarang system service (auto-start pas VPS bangun), dan VPS dapat terdampak auto-pause.
 - [ ] Tidak ada file atau skill lama yang dihapus.
