@@ -1,13 +1,13 @@
 # Threads dump topic list
 
-Daftar topik dari simpanan Threads (threads dump). Sumber: 12 file harian di
-`threads-saves/cedjourney/` (28 Okt–8 Nov 2026), 37 post unik, 47 entri —
-10 post muncul di lebih dari satu topik/sub-topik.
+Daftar topik dari simpanan Threads (threads dump). Sumber: 13 file harian di
+`threads-saves/cedjourney/` (28 Okt–9 Nov 2026), 41 post unik, 52 entri —
+11 post muncul di lebih dari satu topik/sub-topik.
 
 Konvensi: judul nge-link ke post Threads aslinya; `[[YYYY-MM-DD]]` = file
 harian arsipnya. File ini di-update tiap Minggu bareng push mingguan.
 
-Terakhir diperbarui: 2026-11-09 (cakupan 28 Okt–8 Nov 2026).
+Terakhir diperbarui: 2026-11-10 (cakupan 28 Okt–9 Nov 2026).
 
 ## AI
 
@@ -19,6 +19,7 @@ Terakhir diperbarui: 2026-11-09 (cakupan 28 Okt–8 Nov 2026).
 - 2026-11-06 — [Nge-prompt AI pake AI: Claude yang operasikan Gemini](https://www.threads.com/@narasivisual.nv/post/DfYn_PvEy3m) · arsip: [[2026-11-06]]
 - 2026-11-07 — [Sistem AI yang bikin akun media posting 20 konten sehari, 24 jam nonstop](https://www.threads.com/@jimmimohtar/post/Dfa7QPwmcNm) · arsip: [[2026-11-07]]
 - 2026-11-08 — [Pamerin project kalian di sini, yuk saling support](https://www.threads.com/@riswan.syahh/post/DfeFBhBGqPR) · arsip: [[2026-11-08]] (di dalamnya ada proyek AI agent: supernala.com, Everpro Smart Reply)
+- 2026-11-09 — [Keluarkan project open source kalian di GitHub](https://www.threads.com/@alfianfahrur/post/DfetmREmSdV) · arsip: [[2026-11-09]] (di dalamnya ada proyek AI agent/router: KeiRouter, viserys-agent, superior-skills)
 
 ### AI Coding / Vibe Coding
 
@@ -30,6 +31,7 @@ Terakhir diperbarui: 2026-11-09 (cakupan 28 Okt–8 Nov 2026).
 - 2026-11-03 — [SPILL REPO #14: 5 repo skill Claude siap pakai](https://www.threads.com/@peka.ai.id/post/DfSKX8Yk4ri) · arsip: [[2026-11-03]]
 - 2026-11-03 — [Skill AI Cloudflare: coding agent jadi auditor keamanan](https://www.threads.com/@ciptadwipajayaa/post/DfQ_tBkCb5G) · arsip: [[2026-11-03]]
 - 2026-11-06 — [Pamer trobosan Claude paling jenius, versi gratisan](https://www.threads.com/@celloelby/post/DfWl1U9j3GF) · arsip: [[2026-11-06]]
+- 2026-11-09 — [Rate limiter + captcha wajib buat aplikasi vibe coding](https://www.threads.com/@heyrozx/post/DfgSU-6md6Z) · arsip: [[2026-11-09]]
 
 ### AI Video & Konten
 
@@ -57,6 +59,7 @@ Terakhir diperbarui: 2026-11-09 (cakupan 28 Okt–8 Nov 2026).
 ### Showcase project
 
 - 2026-11-08 — [Pamerin project kalian di sini, yuk saling support](https://www.threads.com/@riswan.syahh/post/DfeFBhBGqPR) · arsip: [[2026-11-08]]
+- 2026-11-09 — [Keluarkan project open source kalian di GitHub](https://www.threads.com/@alfianfahrur/post/DfetmREmSdV) · arsip: [[2026-11-09]] (di dalamnya ada proyek AI: KeiRouter, viserys-agent, superior-skills, refity)
 
 ## Hardware & IoT
 
@@ -83,6 +86,10 @@ Terakhir diperbarui: 2026-11-09 (cakupan 28 Okt–8 Nov 2026).
 - 2026-11-03 — [Claude baca CV dari screenshot dan perbaiki seperti recruiter senior](https://www.threads.com/@yourclaudeprompts_/post/DfIEAwKAf6X) · arsip: [[2026-11-03]]
 - 2026-11-03 — [300+ model ML dari top companies buat referensi portfolio](https://www.threads.com/@wahyuikbal_m/post/DfR6spoj5Lg) · arsip: [[2026-11-03]]
 
+## Bisnis
+
+- 2026-11-09 — [Bisnis apa yang kelihatannya unik tapi ternyata marketnya banyak?](https://www.threads.com/@veni_lee/post/DfeWQhZGXId) · arsip: [[2026-11-09]]
+
 ## Konten & Media
 
 - 2026-10-28 — [Bedah Postiz: scheduler media sosial open source yang bisa di-host sendiri](https://www.threads.com/@programmerbiasa/post/DfCY48YiX86) · arsip: [[2026-10-28]]
@@ -93,6 +100,7 @@ Terakhir diperbarui: 2026-11-09 (cakupan 28 Okt–8 Nov 2026).
 ## Edukasi
 
 - 2026-10-28 — [Materi grammar: 5 topik dengan link Drive](https://www.threads.com/@puputpjrahayu/post/DLcTPbkzF5Y) · arsip: [[2026-10-28]]
+- 2026-11-09 — [1 hari 1 ilmu: ilmu apa yang lu tau dan gak banyak orang tau?](https://www.threads.com/@fauzannkrisna/post/DfaGDhRkzIQ) · arsip: [[2026-11-09]]
 
 ## Keluarga
 
