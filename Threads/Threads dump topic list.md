@@ -1,14 +1,14 @@
 # Threads dump topic list
 
-Daftar topik dari simpanan Threads (threads dump). Sumber: 14 file harian di
-`threads-saves/cedjourney/` (28 Okt–11 Nov 2026; 10 Nov tidak ada file, 0 post),
-45 post unik, 58 entri —
-12 post muncul di lebih dari satu topik/sub-topik.
+Daftar topik dari simpanan Threads (threads dump). Sumber: 15 file harian di
+`threads-saves/cedjourney/` (28 Okt–12 Nov 2026; 10 Nov tidak ada file, 0 post),
+51 post unik, 68 entri —
+15 post muncul di lebih dari satu topik/sub-topik.
 
 Konvensi: judul nge-link ke post Threads aslinya; `[[YYYY-MM-DD]]` = file
 harian arsipnya. File ini di-update tiap Minggu bareng push mingguan.
 
-Terakhir diperbarui: 2026-11-11 (cakupan 28 Okt–11 Nov 2026).
+Terakhir diperbarui: 2026-11-12 (cakupan 28 Okt–12 Nov 2026).
 
 ## AI
 
@@ -21,6 +21,8 @@ Terakhir diperbarui: 2026-11-11 (cakupan 28 Okt–11 Nov 2026).
 - 2026-11-07 — [Sistem AI yang bikin akun media posting 20 konten sehari, 24 jam nonstop](https://www.threads.com/@jimmimohtar/post/Dfa7QPwmcNm) · arsip: [[2026-11-07]]
 - 2026-11-08 — [Pamerin project kalian di sini, yuk saling support](https://www.threads.com/@riswan.syahh/post/DfeFBhBGqPR) · arsip: [[2026-11-08]] (di dalamnya ada proyek AI agent: supernala.com, Everpro Smart Reply)
 - 2026-11-09 — [Keluarkan project open source kalian di GitHub](https://www.threads.com/@alfianfahrur/post/DfetmREmSdV) · arsip: [[2026-11-09]] (di dalamnya ada proyek AI agent/router: KeiRouter, viserys-agent, superior-skills)
+- 2026-11-12 — [Ubah Claude jadi karyawan affiliate yang kerja 24 jam](https://www.threads.com/@hafizrizalm/post/DfobbnIkhZ4) · arsip: [[2026-11-12]] (Affiliate Creator Mode: 5 prompt, klaim hasil lewat UMR — belum terverifikasi)
+- 2026-11-12 — [Kalian pake MCP apa aja buat menunjang produktivitas?](https://www.threads.com/@w.i.d.a.t/post/DfivvZrmDSh) · arsip: [[2026-11-12]] (tapflow, konoha, superagent, eling-agent, context7, dll.)
 
 ### AI Coding / Vibe Coding
 
@@ -34,6 +36,7 @@ Terakhir diperbarui: 2026-11-11 (cakupan 28 Okt–11 Nov 2026).
 - 2026-11-06 — [Pamer trobosan Claude paling jenius, versi gratisan](https://www.threads.com/@celloelby/post/DfWl1U9j3GF) · arsip: [[2026-11-06]]
 - 2026-11-09 — [Rate limiter + captcha wajib buat aplikasi vibe coding](https://www.threads.com/@heyrozx/post/DfgSU-6md6Z) · arsip: [[2026-11-09]]
 - 2026-11-11 — [10 project open-source GitHub pengganti tools berbayar](https://www.threads.com/@el_kansil/post/DfmR7rWFGjN) · arsip: [[2026-11-11]] (di dalamnya ada agent-skills, library skill buat Claude Code)
+- 2026-11-12 — [Hidden Gems repo GitHub: 1.980+ komponen siap pakai buat Claude Code](https://www.threads.com/@jvri.sa/post/DfkTBBlDqrr) · arsip: [[2026-11-12]] (repo davila7/claude-code-templates)
 
 ### AI Video & Konten
 
@@ -55,6 +58,8 @@ Terakhir diperbarui: 2026-11-11 (cakupan 28 Okt–11 Nov 2026).
 - 2026-11-02 — [ArtCraft Craft Anything: kloning website, aplikasi, atau game dengan AI](https://www.threads.com/@hannnafiii/post/DfOeMNUEs_A) · arsip: [[2026-11-02]]
 - 2026-11-03 — [Claude baca CV dari screenshot dan perbaiki seperti recruiter senior](https://www.threads.com/@yourclaudeprompts_/post/DfIEAwKAf6X) · arsip: [[2026-11-03]]
 - 2026-11-11 — [10 project open-source GitHub pengganti tools berbayar](https://www.threads.com/@el_kansil/post/DfmR7rWFGjN) · arsip: [[2026-11-11]] (di dalamnya ada LibreChat, Nango, Fincept Terminal, Agentic Inbox, VoxCPM, dan Flowsint)
+- 2026-11-12 — [Prompt engineering udah mati — gantinya JSON Prompting](https://www.threads.com/@difathenextlevel/post/DfnuC-GjWCx) · arsip: [[2026-11-12]]
+- 2026-11-12 — [Kalian pake MCP apa aja buat menunjang produktivitas?](https://www.threads.com/@w.i.d.a.t/post/DfivvZrmDSh) · arsip: [[2026-11-12]] (tapflow, konoha, superagent, eling-agent, context7, dll.)
 
 ### Machine Learning
 
@@ -84,6 +89,10 @@ Terakhir diperbarui: 2026-11-11 (cakupan 28 Okt–11 Nov 2026).
 - 2026-11-01 — [Balik nama rumah warisan: PPh 2,5% Rp30 juta itu bisa nol](https://www.threads.com/@jarangdiajar3/post/DfJ7x09IdC4) · arsip: [[2026-11-01]]
 - 2026-11-08 — [Inner courtyard dan skylight kaca: penderitaan paling elite di desain rumah](https://www.threads.com/@ruditamara/post/Dfba5msGjk9) · arsip: [[2026-11-08]]
 
+## Otomotif
+
+- 2026-11-12 — [Cari mobil max 80 juta buat ngantor di Jakarta](https://www.threads.com/@punyadoang/post/DfmOnc8E3Qh) · arsip: [[2026-11-12]] (tawaran di balasan: Mobilio, Sirion, Camry, dll.)
+
 ## Karir & Kerja
 
 - 2026-11-03 — [Kerja sampingan apa in this economy?](https://www.threads.com/@farhanaprlla/post/DfPQovzmTIm) · arsip: [[2026-11-03]]
@@ -96,6 +105,8 @@ Terakhir diperbarui: 2026-11-11 (cakupan 28 Okt–11 Nov 2026).
 - 2026-11-09 — [Bisnis apa yang kelihatannya unik tapi ternyata marketnya banyak?](https://www.threads.com/@veni_lee/post/DfeWQhZGXId) · arsip: [[2026-11-09]]
 - 2026-11-11 — [5 fitur Shopee gratis yang bikin toko jadi mesin jualan 24 jam](https://www.threads.com/@mnqstore_second/post/DfkKwV6D9xt) · arsip: [[2026-11-11]]
 - 2026-11-11 — [Mulai agribisnis alpukat: jual ke pengepul dulu, jangan kejar untung](https://www.threads.com/@jadipossible/post/Dfj-EXalDs1) · arsip: [[2026-11-11]]
+- 2026-11-12 — [Ubah Claude jadi karyawan affiliate yang kerja 24 jam](https://www.threads.com/@hafizrizalm/post/DfobbnIkhZ4) · arsip: [[2026-11-12]] (Affiliate Creator Mode: 5 prompt, klaim hasil lewat UMR — belum terverifikasi)
+- 2026-11-12 — [Red Fruit E-commerce: angin segar cuan berikutnya?](https://www.threads.com/@jvri.sa/post/DfoXlW1GCKh) · arsip: [[2026-11-12]] (Hongguo short drama, B2A/agentic commerce — dari komentar, belum terverifikasi)
 
 ## Konten & Media
 
@@ -103,6 +114,8 @@ Terakhir diperbarui: 2026-11-11 (cakupan 28 Okt–11 Nov 2026).
 - 2026-10-28 — [Mulai ngonten tapi upload berkali-kali tidak ada yang nyangkut](https://www.threads.com/@caelishkids/post/DFcZko1vNeJ) · arsip: [[2026-10-28]]
 - 2026-10-31 — [youtube-viral-clipper: skill clipper YouTube pakai Gemini, cukup link + prompt sederhana](https://www.threads.com/@firdausiping/post/DfH41CLEykD) · arsip: [[2026-10-31]]
 - 2026-11-07 — [Sistem AI yang bikin akun media posting 20 konten sehari, 24 jam nonstop](https://www.threads.com/@jimmimohtar/post/Dfa7QPwmcNm) · arsip: [[2026-11-07]]
+- 2026-11-12 — [Ubah Claude jadi karyawan affiliate yang kerja 24 jam](https://www.threads.com/@hafizrizalm/post/DfobbnIkhZ4) · arsip: [[2026-11-12]] (Affiliate Creator Mode: 5 prompt, klaim hasil lewat UMR — belum terverifikasi)
+- 2026-11-12 — [Red Fruit E-commerce: angin segar cuan berikutnya?](https://www.threads.com/@jvri.sa/post/DfoXlW1GCKh) · arsip: [[2026-11-12]] (Hongguo short drama, B2A/agentic commerce — dari komentar, belum terverifikasi)
 
 ## Edukasi
 
