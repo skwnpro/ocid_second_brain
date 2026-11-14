@@ -1,14 +1,14 @@
 # Threads dump topic list
 
-Daftar topik dari simpanan Threads (threads dump). Sumber: 15 file harian di
-`threads-saves/cedjourney/` (28 Okt–12 Nov 2026; 10 Nov tidak ada file, 0 post),
-51 post unik, 68 entri —
-15 post muncul di lebih dari satu topik/sub-topik.
+Daftar topik dari simpanan Threads (threads dump). Sumber: 16 file harian di
+`threads-saves/cedjourney/` (28 Okt–14 Nov 2026; 10 Nov dan 13 Nov tidak ada file, 0 post),
+52 post unik, 71 entri —
+16 post muncul di lebih dari satu topik/sub-topik.
 
 Konvensi: judul nge-link ke post Threads aslinya; `[[YYYY-MM-DD]]` = file
 harian arsipnya. File ini di-update tiap Minggu bareng push mingguan.
 
-Terakhir diperbarui: 2026-11-12 (cakupan 28 Okt–12 Nov 2026).
+Terakhir diperbarui: 2026-11-14 (cakupan 28 Okt–14 Nov 2026).
 
 ## AI
 
@@ -23,6 +23,7 @@ Terakhir diperbarui: 2026-11-12 (cakupan 28 Okt–12 Nov 2026).
 - 2026-11-09 — [Keluarkan project open source kalian di GitHub](https://www.threads.com/@alfianfahrur/post/DfetmREmSdV) · arsip: [[2026-11-09]] (di dalamnya ada proyek AI agent/router: KeiRouter, viserys-agent, superior-skills)
 - 2026-11-12 — [Ubah Claude jadi karyawan affiliate yang kerja 24 jam](https://www.threads.com/@hafizrizalm/post/DfobbnIkhZ4) · arsip: [[2026-11-12]] (Affiliate Creator Mode: 5 prompt, klaim hasil lewat UMR — belum terverifikasi)
 - 2026-11-12 — [Kalian pake MCP apa aja buat menunjang produktivitas?](https://www.threads.com/@w.i.d.a.t/post/DfivvZrmDSh) · arsip: [[2026-11-12]] (tapflow, konoha, superagent, eling-agent, context7, dll.)
+- 2026-11-14 — [Generator konten otomatis: Claude + Gemini + ComfyUI + Remotion, semua gratis](https://www.threads.com/@hamdunisme/post/DfuE8eBmOpB) · arsip: [[2026-11-14]] (Claude sebagai orkestrator, terjadwal per jam, upload otomatis ke YouTube)
 
 ### AI Coding / Vibe Coding
 
@@ -45,6 +46,7 @@ Terakhir diperbarui: 2026-11-12 (cakupan 28 Okt–12 Nov 2026).
 - 2026-11-05 — [Post video AI dari @anjstrvnt](https://www.threads.com/@anjstrvnt/post/DfV3AkJjqnX) (isi video tidak terbaca) · arsip: [[2026-11-05]]
 - 2026-11-06 — [Raea: engine video baru, klaim 10–20x lebih cepat dari Remotion](https://www.threads.com/@kakafadfad/post/DfXwM0GzhVy) · arsip: [[2026-11-06]]
 - 2026-11-11 — [10 project open-source GitHub pengganti tools berbayar](https://www.threads.com/@el_kansil/post/DfmR7rWFGjN) · arsip: [[2026-11-11]] (di dalamnya ada HyperFrames dan MoneyPrinterTurbo buat AI video)
+- 2026-11-14 — [Generator konten otomatis: Claude + Gemini + ComfyUI + Remotion, semua gratis](https://www.threads.com/@hamdunisme/post/DfuE8eBmOpB) · arsip: [[2026-11-14]] (narasi & TTS Gemini free tier, gambar Z-Image Turbo + musik ACE-Step 1.5 lewat ComfyUI, animasi & teks Remotion)
 
 ### AI Trainer & Kerja
 
@@ -116,6 +118,7 @@ Terakhir diperbarui: 2026-11-12 (cakupan 28 Okt–12 Nov 2026).
 - 2026-11-07 — [Sistem AI yang bikin akun media posting 20 konten sehari, 24 jam nonstop](https://www.threads.com/@jimmimohtar/post/Dfa7QPwmcNm) · arsip: [[2026-11-07]]
 - 2026-11-12 — [Ubah Claude jadi karyawan affiliate yang kerja 24 jam](https://www.threads.com/@hafizrizalm/post/DfobbnIkhZ4) · arsip: [[2026-11-12]] (Affiliate Creator Mode: 5 prompt, klaim hasil lewat UMR — belum terverifikasi)
 - 2026-11-12 — [Red Fruit E-commerce: angin segar cuan berikutnya?](https://www.threads.com/@jvri.sa/post/DfoXlW1GCKh) · arsip: [[2026-11-12]] (Hongguo short drama, B2A/agentic commerce — dari komentar, belum terverifikasi)
+- 2026-11-14 — [Generator konten otomatis: Claude + Gemini + ComfyUI + Remotion, semua gratis](https://www.threads.com/@hamdunisme/post/DfuE8eBmOpB) · arsip: [[2026-11-14]] (konten terjadwal per jam, upload otomatis ke channel YouTube Indonesia dan Inggris)
 
 ## Edukasi
 
