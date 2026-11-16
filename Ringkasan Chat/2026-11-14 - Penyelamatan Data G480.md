@@ -5,7 +5,7 @@ Ringkasan 14 November 2026 — malam ini pekerjaan G480 beneran jalan, bukan lag
 ## SSH: user balik arah, Bre yang remote
 
 - **Pukul 22:29 user membatalkan rencana "pandu saja".** Alasannya praktis: ribet ketik perintah panjang di laptop G480. Jadinya Bre yang mengerjakan lewat SSH.
-- **Password `skwn` dikirim user sekali di chat** untuk login pertama. Dipakai sekali untuk masuk, lalu kunci SSH Bre langsung dipasang di G480 — setelah itu login cukup pakai kunci, tanpa password lagi. Passwordnya tidak disimpan di mana-mana.
+- **Password dikirim user sekali di chat** untuk login pertama. Dipakai sekali untuk masuk, lalu kunci SSH Bre langsung dipasang di G480 — setelah itu login cukup pakai kunci, tanpa password lagi.
 - **Yang sempat nyangkut:** SSH Bre sempat nyari kunci di `/root/.ssh`, padahal kuncinya di `/home/hatch/.ssh`. Sudah dibetulkan di config (`IdentityFile`), dan login kunci saja sudah terverifikasi masuk sebagai `skwn` di `g480-server`.
 - **Sudo di G480 masih butuh password.** Bre sempat menawarkan agar `skwn` bisa sudo tanpa password supaya instalasi berikutnya tidak mengganggu user lagi — belum dijawab user.
 

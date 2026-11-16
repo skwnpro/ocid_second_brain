@@ -96,12 +96,12 @@ Harusnya keluar `864 models`. Itu katalog doang — belum bisa dipakai sebelum a
 
 ## 4. Sambungin Gemini sebagai upstream
 
-Dashboard 9Router login pakai password default `123456` — harus diganti dulu sebelum bisa dipakai dari luar (langkah 9). Provider ditambah lewat API dashboard, dari dalam VPS (localhost):
+Dashboard 9Router login pakai password default — harus diganti dulu sebelum bisa dipakai dari luar (langkah 9). Provider ditambah lewat API dashboard, dari dalam VPS (localhost):
 
 ```bash
 # login dulu, simpan cookie
 curl -s -c /tmp/nr-cookies.txt -H 'Content-Type: application/json' \
-  -d '{"password": "123456"}' http://127.0.0.1:20128/api/auth/login
+  -d '{"password": "<password default>"}' http://127.0.0.1:20128/api/auth/login
 
 # tambah provider Gemini (kunci dibaca dari config/.env, jangan di-print)
 curl -s -b /tmp/nr-cookies.txt -H 'Content-Type: application/json' \
@@ -224,16 +224,16 @@ Catatan penting: gateway nge-drop update Telegram yang ngantri selama dia offlin
 
 ## 9. Ganti password dashboard 9Router
 
-Password default `123456` ditolak buat login dari luar: 403 `mustChangePassword` ("Default password must be changed before remote access"). Gantinya harus dari localhost — login dari dalam VPS dulu, baru PATCH:
+Password default ditolak buat login dari luar: 403 `mustChangePassword` ("Default password must be changed before remote access"). Gantinya harus dari localhost — login dari dalam VPS dulu, baru PATCH:
 
 ```bash
 # dari VPS: login dulu, simpan cookie
 curl -s -c /tmp/nr-cookies.txt -H 'Content-Type: application/json' \
-  -d '{"password": "123456"}' http://127.0.0.1:20128/api/auth/login
+  -d '{"password": "<password default>"}' http://127.0.0.1:20128/api/auth/login
 
 # ganti password
 curl -s -b /tmp/nr-cookies.txt -X PATCH -H 'Content-Type: application/json' \
-  -d '{"currentPassword": "123456", "newPassword": "<password baru>"}' \
+  -d '{"currentPassword": "<password default>", "newPassword": "<password baru>"}' \
   http://127.0.0.1:20128/api/settings
 
 # tes: login pakai password baru → 200, mustChangePassword false
@@ -307,7 +307,7 @@ Terus pilih Nous / `upstage/solar-mini4:free`.
 - [ ] `grep "Model context warmed" ~/.hermes/logs/gateway.log` → `gemini/gemini-3.6-flash -> 1048576 tokens`
 - [ ] `sudo systemctl status hermes-gateway.service` → `enabled` + `active (running)`
 - [ ] Telegram connected, tes chat dari Telegram dibalas
-- [ ] Password dashboard udah bukan `123456`
+- [ ] Password dashboard udah bukan password default
 - [ ] `sudo systemctl status cashflow-bot.service advisor-bot.service` → dua-duanya `active (running)`
 
 ## Terkait
