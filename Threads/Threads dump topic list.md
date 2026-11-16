@@ -1,14 +1,14 @@
 # Threads dump topic list
 
-Daftar topik dari simpanan Threads (threads dump). Sumber: 17 file harian di
-`threads-saves/cedjourney/` (28 Okt–15 Nov 2026; 10 Nov dan 13 Nov tidak ada file, 0 post),
-54 post unik, 75 entri —
+Daftar topik dari simpanan Threads (threads dump). Sumber: 18 file harian di
+`threads-saves/cedjourney/` (28 Okt–16 Nov 2026; 10 Nov dan 13 Nov tidak ada file, 0 post),
+59 post unik, 80 entri —
 16 post muncul di lebih dari satu topik/sub-topik.
 
 Konvensi: judul nge-link ke post Threads aslinya; `[[YYYY-MM-DD]]` = file
 harian arsipnya. File ini di-update tiap Minggu bareng push mingguan.
 
-Terakhir diperbarui: 2026-11-15 (cakupan 28 Okt–15 Nov 2026).
+Terakhir diperbarui: 2026-11-16 (cakupan 28 Okt–16 Nov 2026).
 
 ## AI
 
@@ -73,6 +73,10 @@ Terakhir diperbarui: 2026-11-15 (cakupan 28 Okt–15 Nov 2026).
 - 2026-11-08 — [Pamerin project kalian di sini, yuk saling support](https://www.threads.com/@riswan.syahh/post/DfeFBhBGqPR) · arsip: [[2026-11-08]]
 - 2026-11-09 — [Keluarkan project open source kalian di GitHub](https://www.threads.com/@alfianfahrur/post/DfetmREmSdV) · arsip: [[2026-11-09]] (di dalamnya ada proyek AI: KeiRouter, viserys-agent, superior-skills, refity)
 
+### Belajar AI
+
+- 2026-11-16 — [14 channel YouTube buat belajar AI](https://www.threads.com/@aapprzll/post/Dfwpfeskwps) · arsip: [[2026-11-16]] (Karpathy, Dwarkesh Patel, 3Blue1Brown, Lex Fridman, Jeff Su, AI Jason, Greg Isenberg, Dan Koe, OpenAI, Anthropic, Google AI, Lenny's Podcast, Y Combinator, Yuval Noah Harari)
+
 ## Hardware & IoT
 
 - 2026-10-28 — [Punya ide produk hardware tapi mundur karena desain PCB kelihatan ribet](https://www.threads.com/@novn_/post/DdOIsRtFsHM) · arsip: [[2026-10-28]]
@@ -132,8 +136,18 @@ Terakhir diperbarui: 2026-11-15 (cakupan 28 Okt–15 Nov 2026).
 ## Keluarga
 
 - 2026-10-31 — [Calon ayah wajib tahu: tiga fase kritis BPJS bayi H-30, H-0, H+7](https://www.threads.com/@celine_anindya_/post/DfHoJOJIzI0) · arsip: [[2026-10-31]]
+- 2026-11-16 — [BPJS buat lahiran: 4 langkah alurnya](https://www.threads.com/@ibubidangalih.id/post/DfyjlwnANuA) · arsip: [[2026-11-16]] (syarat: BPJS aktif, kontrol kehamilan di FKTP min. 6 kali; caesar ditanggung kalau ada indikasi medis; darurat langsung ke RS)
+- 2026-11-16 — [Kenapa makin banyak anak terlambat bicara — jawaban Prof. Mei Neni](https://www.threads.com/@umasaliim/post/DfySK8hiRIP) · arsip: [[2026-11-16]] (penyebab terbanyak: stimulasi kurang + screen time dini; di bawah 2 tahun tidak boleh gadget kecuali video call keluarga)
 
 ## Trading
 
 - 2026-11-02 — [Day 3: bot trading dilepas jalan sendiri di akun real, sapu 5 putaran](https://www.threads.com/@rewmasoon/post/DfO2dnqIOYb) · arsip: [[2026-11-02]]
 - 2026-11-03 — [Day 4: bot trading jalan sendiri, saldo 51.712 USC](https://www.threads.com/@rewmasoon/post/DfQaPF6Ev8i) · arsip: [[2026-11-03]]
+
+## Keuangan
+
+- 2026-11-16 — [Kesalahan keuangan nomor 1 di umur 20–30an: Ostrich Effect](https://www.threads.com/@tips.aturuang/post/DfvVhUYE9Id) · arsip: [[2026-11-16]] (hindari kondisi keuangan sendiri; aturan 48 jam, bagi gaji 65/25/10, roadmap 6 bulan, index fund — rangkuman podcast Jay Shetty x Nischa Shah)
+
+## Robotik
+
+- 2026-11-16 — [MuJoCo: physics simulator open source standar riset robotik](https://www.threads.com/@novski.dev/post/DfzRmshiZsX) · arsip: [[2026-11-16]] (Google DeepMind, C API, Python bindings, plugin Unity, coba di browser via WebAssembly; nyambung ke proyek Brush Kart / ROS 2)
