@@ -1,14 +1,14 @@
 # Threads dump topic list
 
-Daftar topik dari simpanan Threads (threads dump). Sumber: 16 file harian di
-`threads-saves/cedjourney/` (28 Okt–14 Nov 2026; 10 Nov dan 13 Nov tidak ada file, 0 post),
-52 post unik, 71 entri —
+Daftar topik dari simpanan Threads (threads dump). Sumber: 17 file harian di
+`threads-saves/cedjourney/` (28 Okt–15 Nov 2026; 10 Nov dan 13 Nov tidak ada file, 0 post),
+54 post unik, 75 entri —
 16 post muncul di lebih dari satu topik/sub-topik.
 
 Konvensi: judul nge-link ke post Threads aslinya; `[[YYYY-MM-DD]]` = file
 harian arsipnya. File ini di-update tiap Minggu bareng push mingguan.
 
-Terakhir diperbarui: 2026-11-14 (cakupan 28 Okt–14 Nov 2026).
+Terakhir diperbarui: 2026-11-15 (cakupan 28 Okt–15 Nov 2026).
 
 ## AI
 
@@ -24,6 +24,7 @@ Terakhir diperbarui: 2026-11-14 (cakupan 28 Okt–14 Nov 2026).
 - 2026-11-12 — [Ubah Claude jadi karyawan affiliate yang kerja 24 jam](https://www.threads.com/@hafizrizalm/post/DfobbnIkhZ4) · arsip: [[2026-11-12]] (Affiliate Creator Mode: 5 prompt, klaim hasil lewat UMR — belum terverifikasi)
 - 2026-11-12 — [Kalian pake MCP apa aja buat menunjang produktivitas?](https://www.threads.com/@w.i.d.a.t/post/DfivvZrmDSh) · arsip: [[2026-11-12]] (tapflow, konoha, superagent, eling-agent, context7, dll.)
 - 2026-11-14 — [Generator konten otomatis: Claude + Gemini + ComfyUI + Remotion, semua gratis](https://www.threads.com/@hamdunisme/post/DfuE8eBmOpB) · arsip: [[2026-11-14]] (Claude sebagai orkestrator, terjadwal per jam, upload otomatis ke YouTube)
+- 2026-11-15 — [AI yang bangun channel YouTube MUA: 91 video terjadwal sampai Februari](https://www.threads.com/@khmuhtadin/post/DfwKMbDk-lr) · arsip: [[2026-11-15]] (Aside browser AI: repurpose IG ke Google Business Profile + YouTube terjadwal via tebar.app, sistem booking Kysa)
 
 ### AI Coding / Vibe Coding
 
@@ -101,6 +102,7 @@ Terakhir diperbarui: 2026-11-14 (cakupan 28 Okt–14 Nov 2026).
 - 2026-11-03 — [Claude baca CV dari screenshot dan perbaiki seperti recruiter senior](https://www.threads.com/@yourclaudeprompts_/post/DfIEAwKAf6X) · arsip: [[2026-11-03]]
 - 2026-11-03 — [300+ model ML dari top companies buat referensi portfolio](https://www.threads.com/@wahyuikbal_m/post/DfR6spoj5Lg) · arsip: [[2026-11-03]]
 - 2026-11-11 — [7 prompt ChatGPT buat rombak CV sampai dapat 3 panggilan interview](https://www.threads.com/@difathenextlevel/post/DfhVfpzCPHx) · arsip: [[2026-11-11]]
+- 2026-11-15 — [6 hal yang bisa bikin income 2–3x lipat](https://www.threads.com/@nearr90/post/DfwhMBTDxiG) · arsip: [[2026-11-15]] (ambisi, gamifikasi, neuroplasticity, psikologi, persuasi, sales & marketing — fokus 6–10 bulan)
 
 ## Bisnis
 
@@ -109,6 +111,7 @@ Terakhir diperbarui: 2026-11-14 (cakupan 28 Okt–14 Nov 2026).
 - 2026-11-11 — [Mulai agribisnis alpukat: jual ke pengepul dulu, jangan kejar untung](https://www.threads.com/@jadipossible/post/Dfj-EXalDs1) · arsip: [[2026-11-11]]
 - 2026-11-12 — [Ubah Claude jadi karyawan affiliate yang kerja 24 jam](https://www.threads.com/@hafizrizalm/post/DfobbnIkhZ4) · arsip: [[2026-11-12]] (Affiliate Creator Mode: 5 prompt, klaim hasil lewat UMR — belum terverifikasi)
 - 2026-11-12 — [Red Fruit E-commerce: angin segar cuan berikutnya?](https://www.threads.com/@jvri.sa/post/DfoXlW1GCKh) · arsip: [[2026-11-12]] (Hongguo short drama, B2A/agentic commerce — dari komentar, belum terverifikasi)
+- 2026-11-15 — [AI yang bangun channel YouTube MUA: 91 video terjadwal sampai Februari](https://www.threads.com/@khmuhtadin/post/DfwKMbDk-lr) · arsip: [[2026-11-15]] (sistem booking Kysa: terima/tolak booking, catat pemasukan-pengeluaran, kalender — cek kysa.makeup)
 
 ## Konten & Media
 
@@ -119,6 +122,7 @@ Terakhir diperbarui: 2026-11-14 (cakupan 28 Okt–14 Nov 2026).
 - 2026-11-12 — [Ubah Claude jadi karyawan affiliate yang kerja 24 jam](https://www.threads.com/@hafizrizalm/post/DfobbnIkhZ4) · arsip: [[2026-11-12]] (Affiliate Creator Mode: 5 prompt, klaim hasil lewat UMR — belum terverifikasi)
 - 2026-11-12 — [Red Fruit E-commerce: angin segar cuan berikutnya?](https://www.threads.com/@jvri.sa/post/DfoXlW1GCKh) · arsip: [[2026-11-12]] (Hongguo short drama, B2A/agentic commerce — dari komentar, belum terverifikasi)
 - 2026-11-14 — [Generator konten otomatis: Claude + Gemini + ComfyUI + Remotion, semua gratis](https://www.threads.com/@hamdunisme/post/DfuE8eBmOpB) · arsip: [[2026-11-14]] (konten terjadwal per jam, upload otomatis ke channel YouTube Indonesia dan Inggris)
+- 2026-11-15 — [AI yang bangun channel YouTube MUA: 91 video terjadwal sampai Februari](https://www.threads.com/@khmuhtadin/post/DfwKMbDk-lr) · arsip: [[2026-11-15]] (91 video YouTube terjadwal satu per hari sampai Februari via tebar.app, dari reels IG)
 
 ## Edukasi
 
