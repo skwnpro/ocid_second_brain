@@ -1,14 +1,14 @@
 # Threads dump topic list
 
-Daftar topik dari simpanan Threads (threads dump). Sumber: 25 file harian di
-`threads-saves/cedjourney/` (28 Okt–24 Nov 2026; 10, 13, dan 22 Nov tidak ada file, 0 post),
-73 post unik, 97 entri —
+Daftar topik dari simpanan Threads (threads dump). Sumber: 26 file harian di
+`threads-saves/cedjourney/` (28 Okt–26 Nov 2026; 10, 13, 22, dan 25 Nov tidak ada file, 0 post),
+74 post unik, 98 entri —
 19 post muncul di lebih dari satu topik/sub-topik.
 
 Konvensi: judul nge-link ke post Threads aslinya; `[[YYYY-MM-DD]]` = file
 harian arsipnya. File ini di-update tiap Minggu bareng push mingguan.
 
-Terakhir diperbarui: 2026-11-24 (cakupan 28 Okt–24 Nov 2026).
+Terakhir diperbarui: 2026-11-26 (cakupan 28 Okt–26 Nov 2026).
 
 ## AI
 
@@ -53,6 +53,7 @@ Terakhir diperbarui: 2026-11-24 (cakupan 28 Okt–24 Nov 2026).
 - 2026-11-11 — [10 project open-source GitHub pengganti tools berbayar](https://www.threads.com/@el_kansil/post/DfmR7rWFGjN) · arsip: [[2026-11-11]] (di dalamnya ada HyperFrames dan MoneyPrinterTurbo buat AI video)
 - 2026-11-14 — [Generator konten otomatis: Claude + Gemini + ComfyUI + Remotion, semua gratis](https://www.threads.com/@hamdunisme/post/DfuE8eBmOpB) · arsip: [[2026-11-14]] (narasi & TTS Gemini free tier, gambar Z-Image Turbo + musik ACE-Step 1.5 lewat ComfyUI, animasi & teks Remotion)
 - 2026-11-24 — [MUSE X KAGGLE: stop bayar GPU mahal-mahal](https://www.threads.com/@tukang_e.ayy/post/DgG4zJYn0G6) · arsip: [[2026-11-24]] (GPU gratis Kaggle Tesla T4×2 lewat kernel Muse, generate video pakai Minimax H3; prompt detail ada di gambar carousel, tidak terbaca)
+- 2026-11-26 — [muse-video-prompt-skill: prompt video sinematik 6 bagian](https://www.threads.com/@papahyungyt/post/DgKwa4vmB7o) · arsip: [[2026-11-26]] (skill/repo GitHub buat prompt video sinematik bareng Muse, karakter stabil antar scene + auto cek frame; nyambung ke AI Content Factory)
 
 ### AI Trainer & Kerja
 
